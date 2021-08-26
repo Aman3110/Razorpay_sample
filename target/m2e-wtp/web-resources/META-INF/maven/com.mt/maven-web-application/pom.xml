@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>Razorpay-Integrations</artifactId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>Razorpay-Integrations</name>
+	<name>maven-web-application</name>
 
 	
 	
@@ -102,7 +102,7 @@
 	
 	
 	<build>
-		<finalName>Razorpay Integrations</finalName>
+		<finalName>maven-web-application</finalName>
 		
 		<plugins>
 			<plugin>
@@ -122,7 +122,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/Razorpay-Integrations</contextPath>
+						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -135,7 +135,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>Razorpay-Integrations</wtpContextName>
+					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
@@ -144,4 +144,5 @@
 	
 	
 </project>
+
 
